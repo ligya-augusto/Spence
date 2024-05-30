@@ -138,6 +138,55 @@
     height: 25px;
 }
 
+/* Page Escrow */
+.page-escrow {
+    display: flex;
+    background-color: var(--gray);
+    padding: 5% 5% 0 10%;
+    border-radius: 8px;
+}
+
+.page-text {
+    width: 60%;
+    margin-right: 5.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.page__title {
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.page__title + p {
+    color: var(--dark-gray-text);
+}
+
+.page-link a {
+    color: var(--dark-gray-text);
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.page-escrow-image img {
+    height: 100%;
+}
+
+/* Page editor */
+.page-editor {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.page-text:nth-child(2) {
+    width: 100%;
+}
+
+
+
 /* Tablet */ 
 @media (max-width: 768px) {
     .promo {
